@@ -185,6 +185,7 @@ type AnonymousIP struct {
 type ASN struct {
 	AutonomousSystemOrganization string `maxminddb:"autonomous_system_organization"`
 	AutonomousSystemNumber       uint   `maxminddb:"autonomous_system_number"`
+	Network                      string `maxminddb:"network"`
 }
 
 // The ConnectionType struct corresponds to the data in the GeoIP2
